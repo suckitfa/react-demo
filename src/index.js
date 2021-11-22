@@ -9,6 +9,19 @@ import Form from './Form';
 import Toggle from './Toggle';
 // import Greeting from './Condition';
 import LoginControl from './GreeTest';
+import NumberList from './NumberList';
+import Blog from './Blog'
+import NameForm from './NameForm'
+import EssayForm from './EssayForm';
+import FlavorForm from './FlavorForm'
+import Calculator from './Calcularot';
+import WelcomeDialog from './Welcome';
+import App from "./Contacts"
+const numbers = [1,2,3,4,5]
+const posts = [
+  {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
+  {id: 2, title: 'Installation', content: 'You can install React from npm.'}
+];
 ReactDOM.render(
     // <Game />,
     // <TestComponent name="Bob" />,
@@ -17,6 +30,14 @@ ReactDOM.render(
     // Clock / > ,
     // <Form />,
     // <Toggle />,
-    <LoginControl />,
+    // <LoginControl />,
+    // <NumberList numbers={numbers}/>,
+    // <Blog posts={posts}/>,
+    // <NameForm />,
+    // <EssayForm />,
+    // <FlavorForm />,
+    // <Calculator />,
+    // <WelcomeDialog />,
+    <App />,
     document.getElementById('root')
 );
