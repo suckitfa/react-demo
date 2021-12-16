@@ -16,12 +16,22 @@ import EssayForm from './EssayForm';
 import FlavorForm from './FlavorForm'
 import Calculator from './Calcularot';
 import WelcomeDialog from './Welcome';
-import App from "./Contacts"
+import App from "./Contacts";
+import DOM from './dom/index.js';
 const numbers = [1,2,3,4,5]
 const posts = [
   {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
   {id: 2, title: 'Installation', content: 'You can install React from npm.'}
 ];
+
+// const root = document.getElementById('root');
+// function tick() {
+//   const element = (
+//       <div>{new Date().toLocaleTimeString()}</div>
+//     )
+//     ReactDOM.render(element,root);
+// }
+// setInterval(tick, (1000));
 ReactDOM.render(
     // <Game />,
     // <TestComponent name="Bob" />,
@@ -38,6 +48,7 @@ ReactDOM.render(
     // <FlavorForm />,
     // <Calculator />,
     // <WelcomeDialog />,
-    <App />,
+    // <App />,
+    <DOM />,
     document.getElementById('root')
 );
